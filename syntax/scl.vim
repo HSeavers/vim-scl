@@ -15,7 +15,7 @@ syn keyword sclConditional if else then case elsif
 syn keyword sclConditional end_if end_case
 syn keyword sclConstant nil maxint
 syn keyword sclLabel goto
-syn keyword sclOperator and div mod not or
+syn keyword sclOperator and div mod not or shl shr xor
 syn keyword sclRepeat do for repeat while to until by of
 syn keyword sclRepeat end_for end_repeat end_while
 syn keyword sclStatement function_block function data_block const label var_in_out organization_block end_organization_block
@@ -38,7 +38,6 @@ syn match SymbolOperator "<>"
 syn match SymbolOperator ":="
 syn match SymbolOperator "[()\[\]]"
 syn match SymbolOperator "\.\."
-syn keyword sclOperator shl shr xor
 
 " Numbers
 syn match sclNumber '-\=\<\d\+\>'
@@ -62,7 +61,7 @@ syn keyword sclFunction byte_to_word byte_to_dword word_to_dword word_to_byte in
 syn keyword sclFunction dword_to_dint dint_to_dword int_to_word word_to_int word_to_dint byte_to_int dword_to_int
 syn keyword sclFunction dint_to_real real_to_dint DINT_TO_WORD real_to_int dint_to_time time_to_dint int_to_real
 syn keyword sclFunction block_db_to_word word_to_block_db
-syn keyword sclPredefined var_Input var_Output VAR_TEMP end_var var
+syn keyword sclStatement var_Input var_Output VAR_TEMP end_var var
 
 "Types
 syn keyword sclType bool Byte Word Dword
