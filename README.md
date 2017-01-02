@@ -1,6 +1,6 @@
 # vim-scl
 
-A simple Vim PlugIn for SIMATIC SCL (Structured Control Language)
+A simple Vim PlugIn for SIMATIC SCL (Structured Control Language) syntaxhighlight
 
 ## Installation
 
