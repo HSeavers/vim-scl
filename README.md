@@ -11,7 +11,7 @@ Copy the included directories into your .vim or vimfiles directory.
 Run the following in a terminal:
     
     cd ~/.vim/bundle
-    git clone https://github.com/uaarrgghh/vim-scl
+    git clone https://github.com/uarrgghh/vim-scl
     
 ### Using Vundle:
 Place this in your .vimrc:
