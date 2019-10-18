@@ -16,7 +16,7 @@ Run the following in a terminal:
 ### Using Vundle:
 Place this in your .vimrc:
 
-    Plugin 'uaarrgghh/vim-scl'
+    Plugin 'uarrgghh/vim-scl'
   
 … then run the following in Vim:
 
